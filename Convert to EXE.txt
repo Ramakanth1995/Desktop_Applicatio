@@ -1,0 +1,11 @@
+Install pyinstaller using 
+ pip install pyinstaller
+
+if you don't want console and want a single file then use the below command.
+      pyinstaller Main.py --noconsole --onefile
+You can now delete the build folder and also the Main.SPEC file
+copy the Main.exe from dist folder and paste where your images and config file is there.
+
+
+if you want console then remove the --noconsole 
+pyinstaller Main.py --onefile
